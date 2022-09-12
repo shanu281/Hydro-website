@@ -1,0 +1,36 @@
+.footer-container{
+    background-color:black;
+    color: white;
+}
+.all-services{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding-top: 50px;
+}
+.flex-2{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+li{
+    color: white;
+    line-height: 0.1;
+}
+
+.fa-brands{
+    color: white;
+    padding: 20px;
+    transition: 600ms;
+}
+.fa-brands:hover{
+    background-color: rgb(35, 175, 226);
+    border-radius: 50%;
+}
+.hr-2 {
+    width: 75%;
+    height: 3px;
+    border-width: 0;
+    color:white;
+    background-color:white;
+}

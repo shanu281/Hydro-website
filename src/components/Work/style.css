@@ -1,0 +1,18 @@
+.work-container{
+    margin: 50px 0;
+}
+.img-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    }
+.work-img{
+    width: 294px;
+    margin: 10px;
+    transition: 500ms;
+   
+}
+.work-img:hover{
+    transform: scale(1.1);
+}
